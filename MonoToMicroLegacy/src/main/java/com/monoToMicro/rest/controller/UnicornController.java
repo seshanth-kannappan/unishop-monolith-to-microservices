@@ -38,7 +38,7 @@ import java.util.Collection;
  * 
  */
 @RestController
-@RequestMapping("/unicorns")
+@RequestMapping({"/unicorns","/"})
 public class UnicornController extends CoreController {
 
 	@Autowired
